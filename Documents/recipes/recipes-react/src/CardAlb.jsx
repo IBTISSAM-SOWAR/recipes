@@ -18,8 +18,8 @@ export default function CardAlb(){
                 <p className="text-gray-600 text-sm mt-1">{recipe.description}</p>
                 <div className="mt-4 flex space-x-2">
                   <button className="bg-green-500 text-white px-3 py-1 rounded" onClick={() => alert(recipe.title)}>View</button>
-                  <button className="bg-blue-500 text-white px-3 py-1 rounded">Edit</button>
-                  <button className="bg-red-500 text-white px-3 py-1 rounded">Delete</button>
+                  <button className="bg-blue-500 text-white px-3 py-1 rounded"onClick={() => alert("are you sure to edit?")}>Edit</button>
+                  <button className="bg-red-500 text-white px-3 py-1 rounded"onClick={() => alert("are you sure to deleted ?")}>Delete</button>
                 </div>
               </div>
             ))}
